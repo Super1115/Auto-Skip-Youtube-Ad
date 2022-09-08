@@ -1,0 +1,20 @@
+{
+    "name": "Auto Skip Youtube Ad",
+    "description": "A youtube ad skipper extension.(NOT ad blocker)",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_icon": {
+          "16": "icon.png",
+          "32": "icon.png",
+          "48": "icon.png",
+          "128": "icon.png"
+        }
+      },
+    "content_scripts": [
+        {
+          "matches": ["*://*.youtube.com/*"],
+          "js": ["yt_skip.js"]
+        }
+      ]
+  }

@@ -7,7 +7,7 @@ function skip(){
     console.log("好像有一些錯誤!錯誤訊息:",e)
 }
 return new Promise((resolve, reject)=>{
-    setTimeout(resolve, 750)
+    setTimeout(resolve, 900)
 })
 }
 while(true){
